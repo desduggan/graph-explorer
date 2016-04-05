@@ -1,0 +1,77 @@
+{
+    "nodes": [
+        {"id":0,"name":"SaaS","group":"topic","distance":0},
+        {"id":1,"name":"Enterprise Sales","group":"topic","distance":0},
+        {"id":2,"name":"Operations","group":"topic","distance":2},
+        {"id":3,"name":"Engineering","group":"topic","distance":2},
+        {"id":4,"name":"Marketing","group":"topic","distance":2},
+        {"id":5,"name":"Product","group":"topic","distance":2},
+        {"id":6,"name":"User Acquisition","group":"topic","distance":2},
+
+        {"id":7,"name":"Tyler Elliston","group":"person","distance":1},
+        {"id":8,"name":"Dave Hodson","group":"person","distance":1},
+        {"id":9,"name":"Steve Mock","group":"person","distance":1},
+        {"id":10,"name":"Brian Rothenberg","group":"person","distance":1},
+
+        {"id":11,"name":"Expedite Financial","group":"company","distance":2},
+        {"id":12,"name":"Microsoft","group":"company","distance":2},
+        {"id":13,"name":"Skype","group":"company","distance":2},
+        {"id":14,"name":"Metric Insight","group":"company","distance":2},
+        {"id":15,"name":"Eventbrite","group":"company","distance":2},
+        {"id":16,"name":"","group":"person","distance":3},
+        {"id":17,"name":"","group":"person","distance":3},
+        {"id":18,"name":"","group":"person","distance":3},
+        {"id":19,"name":"","group":"person","distance":3},
+        {"id":20,"name":"","group":"person","distance":3},
+        {"id":21,"name":"","group":"person","distance":3},
+        {"id":22,"name":"","group":"person","distance":3},
+        {"id":23,"name":"","group":"person","distance":3},
+        {"id":24,"name":"","group":"person","distance":3},
+        {"id":25,"name":"","group":"person","distance":3},
+        {"id":26,"name":"","group":"person","distance":3},
+        {"id":27,"name":"","group":"person","distance":3},
+        {"id":28,"name":"","group":"person","distance":3},
+        {"id":29,"name":"","group":"person","distance":3},
+        {"id":30,"name":"","group":"person","distance":3}
+    ],
+  "links":[
+        {"source":0,"target":7,"value":1},
+        {"source":0,"target":8,"value":8},
+        {"source":1,"target":7,"value":10},
+        {"source":1,"target":8,"value":10},
+        {"source":1,"target":9,"value":10},
+        {"source":1,"target":10,"value":10},
+        {"source":7,"target":11,"value":10},
+        {"source":7,"target":4,"value":10},
+        {"source":4,"target":16,"value":10},
+        {"source":11,"target":17,"value":10},
+        {"source":11,"target":18,"value":10},
+        {"source":11,"target":19,"value":10},
+        
+        {"source":8,"target":12,"value":10},
+        {"source":8,"target":13,"value":10},
+        {"source":8,"target":2,"value":10},
+        {"source":8,"target":3,"value":10},
+
+        {"source":12,"target":20,"value":10},
+        {"source":12,"target":21,"value":10},
+        {"source":13,"target":22,"value":10},
+        {"source":13,"target":23,"value":10},
+
+        {"source":3,"target":24,"value":10},
+        {"source":2,"target":27,"value":10},
+
+        {"source":9,"target":2,"value":10},
+        {"source":9,"target":14,"value":10},        
+        {"source":14,"target":25,"value":10},        
+        {"source":14,"target":26,"value":10},
+
+        {"source":10,"target":5,"value":10},
+        {"source":10,"target":6,"value":10},
+        {"source":10,"target":15,"value":10},
+        {"source":15,"target":30,"value":10},
+        {"source":5,"target":28,"value":10},
+        {"source":5,"target":29,"value":10}
+
+    ]
+}

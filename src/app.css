@@ -1,0 +1,70 @@
+.node {
+/*  stroke: #fff;
+  stroke-width: 1.5px;*/
+  cursor: pointer;
+}
+
+.link {
+  stroke: #dfdddd;
+  stroke-opacity: .6;
+}
+
+text {
+	font-family: 'Droid Sans', sans-serif;	
+	font-size: 12px;
+}
+
+.main-container {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	vertical-align: middle; 
+	overflow: hidden; 	
+}
+
+svg {
+	display: block;
+	margin: 25px auto;
+}
+
+/* pure overrides */
+fieldset {
+	border: none;
+	background-color: transparent;
+	text-align: center;
+	margin: 12px 0 0 0;
+	color: #616161;
+}
+
+fieldset label {
+	padding: 0 25px 0 4px;
+	font-weight: 700;
+}
+fieldset input{
+	margin: 0 5px 0 0;
+}
+
+fieldset label:first-child {
+	padding-right: 25px;
+}
+
+button {
+	/* Inspired by Semantic UI Basic Button*/
+    cursor: pointer;
+    display: inline-block;
+    box-shadow: 0 0 0 1px #616161 inset!important;
+    color: #616161!important;    
+    padding: .05em 0.5em;
+
+    outline: 0;
+    border: none;
+    vertical-align: baseline;
+    background: white;
+    color: rgba(0,0,0,.6);
+    margin: 0 .25em 0 0;
+    border-radius: .28571429rem;
+    box-shadow: 0 0 0 1px transparent inset,0 0 0 0 rgba(34,36,38,.15) inset;
+}
+button:hover {
+	background-color: #F0F0F0;
+}
